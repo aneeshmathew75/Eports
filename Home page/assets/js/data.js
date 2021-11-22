@@ -12,18 +12,6 @@ const eventData = [
         regdFee: 'Rs 3000',
     },
     {
-        eventId: '2',
-        name: 'bbbb',
-        desc1: 'jhfdjkahfdjkha',
-        desc2: 'dasdasdasd',
-        hostedBy: 'axdadad',
-        logo: './assets/img/LOGO.png',
-        eventDate: '12th Sept 2212',
-        genre: 'action',
-        eventImage: './assets/img/couter-strick.jpg',
-        regdFee: 'Rs 3000',
-    },
-    {
         eventId: '3',
         name: 'cccc',
         desc1: 'jhfdjkahfdjkha',
