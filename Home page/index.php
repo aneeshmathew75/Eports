@@ -16,9 +16,15 @@
     <link rel="stylesheet" href="assets/css/Social-Icons.css">
 </head>
 <body>
+<<<<<<< HEAD:Home page/index.php
         <?php
         include '../include/navbar.php';
         ?>
+=======
+    <?php
+    include '../navdar/navbar.php';
+    ?>
+>>>>>>> c96b881cede7bd6196883522ba3e2da94c909ca1:Home page/index.html
     <header class="text-center text-white masthead">
         <div class="masthead-content">
             <div class="container">
