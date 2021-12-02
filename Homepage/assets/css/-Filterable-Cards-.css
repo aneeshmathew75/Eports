@@ -1,0 +1,125 @@
+.filtr-item {
+  /* padding-top: 30px; */
+  padding: 0px !important;
+  height: 500px;
+  width: 32%;
+  border-radius: 60px;
+  border: 1px solid #c9c9c9;
+  overflow: hidden;
+  background-color: #C9c9c9;
+}
+.filter-card-header{
+  padding: 5px 10px;
+}
+.filtr-item:hover{
+  border: 2px solid #333;
+}
+.title-element{
+  padding: 10px 20px 0px 20px;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: blue;
+}
+.desc-element{
+  padding: 10px 20px 0px 20px;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: grey;
+}
+.hosted-by-container{
+  padding: 10px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.logo-hosted{
+  margin-top: 5px;
+}
+.hosted-by-text{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 400;
+}
+.hosted-name{
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 400;
+  color: blue;
+}
+.filter-card-footer{
+  height: 45px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.card-action{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+
+.btn-action{
+  border: none;
+  padding: 10px;
+  margin-bottom: 32px;
+  color: darkblue;
+  border-radius: 30px;
+  align-items: center;
+  display: flex;
+}
+
+
+.filtr-controls span {
+  cursor: pointer;
+}
+
+.filtr-controls span:after {
+  content: ' ';
+  width: 0;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: transparent;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+}
+
+.filtr-controls span.active:after {
+  width: 100%;
+  left: 0;
+  background: #000;
+}
+
+.filtr-loading {
+  border: 5px solid #333;
+  position: relative;
+  border-radius: 40px;
+  height: 40px;
+  left: 50%;
+  margin: 80px 0;
+  opacity: 0;
+  top: 0;
+  width: 40px;
+  z-index: 2;
+  -webkit-animation: pulsate 1s ease-out infinite;
+  animation: pulsate 1s ease-out infinite;
+}
+
+@keyframes pulsate {
+}
+.filtr-container{
+  row-gap: 20px;
+  column-gap: 20px;
+}
